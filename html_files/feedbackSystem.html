@@ -1,0 +1,230 @@
+<html></!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback System</title>
+	<style>
+		
+		table, th, td {
+    		#border: 1px solid black;
+    		padding: 5px
+		}
+	</style>
+</head>
+<body>
+<script>
+function myfunction() {
+    alert("Your feedback is successfully done");
+}
+</script>
+<form action="/login" method="POST">
+<div>
+
+<table background="static\img\w.jpg" width="100%" >
+	<tr>  <th style="text-align: center;"><h1>FEEDBACK FORM</h1></th> </tr>
+	<tr>  <th style="text-align: center;"><b>Enrollment: <input type="text" name="enroll"></b></th> </tr>
+	<tr>  <th style="text-align: center;"><b>Department: <input type="text" name="depart"></b></th> </tr>
+	<tr>  <th style="text-align: center;"><b>Acadmic year: <input type="text" name="Acad"></b></th> </tr>
+	<tr>  <th></th></tr>
+	<tr>  <th style="text-align: left;"><b>RATINGS</b></th> </tr>
+	<tr>
+		<td > <b>5 - </b>Strongly agree &emsp; &emsp; <b> 4 - </b>Agree &emsp; &emsp; <b> 3 - </b>Neigher agree and disagree &emsp; &emsp; <b>2 - </b>Disagree &emsp; &emsp; <b> 1 - </b>Strongly disagree
+		</td>
+	</tr>
+</table>
+<table background="static\img\w.jpg" width="100%">
+	<tr style="border: 1px solid black">
+		<th style="text-align: left;" colspan="2"><b>COURSE</b></th>
+		<td>5</td>
+		<td>4</td>
+		<td>3</td>
+		<td>2</td>
+		<td>1</td>
+	</tr>
+	<tr id='1'>
+		<td>1</td>
+		<td>The course plan provided sufficient information on the objective and contents </td>
+		<td><input type="radio" name="1" value="5" ></td>
+		<td><input type="radio" name="1" value="4" ></td>
+		<td><input type="radio" name="1" value="3" ></td>
+		<td><input type="radio" name="1" value="2" ></td>
+		<td><input type="radio" name="1" value="1" ></td>
+	</tr>
+	<tr id='2'>
+		<td>2</td>
+		<td>The distribution of marks (for tests, assignments, tutorials and exams) was clearly stated in the course plan</td>
+		<td><input type="radio" name="2" value="5" ></td>
+		<td><input type="radio" name="2" value="4" ></td>
+		<td><input type="radio" name="2" value="3" ></td>
+		<td><input type="radio" name="2" value="2" ></td>
+		<td><input type="radio" name="2" value="1" ></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>I found the course materials (class notes, handouts, prescribed textbook) useful</td>
+		<td><input type="radio" name="3" value="5" ></td>
+		<td><input type="radio" name="3" value="4" ></td>
+		<td><input type="radio" name="3" value="3" ></td>
+		<td><input type="radio" name="3" value="2" ></td>
+		<td><input type="radio" name="3" value="1" ></td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>The assignments, tutorials, quizzes etc, helped me to understand the course</td>
+		<td><input type="radio" name="4" value="5" ></td>
+		<td><input type="radio" name="4" value="4" ></td>
+		<td><input type="radio" name="4" value="3" ></td>
+		<td><input type="radio" name="4" value="2" ></td>
+		<td><input type="radio" name="4" value="1" ></td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>The tests and examination covered to a large extent was taught in the class</td>
+		<td><input type="radio" name="5" value="5" ></td>
+		<td><input type="radio" name="5" value="4" ></td>
+		<td><input type="radio" name="5" value="3" ></td>
+		<td><input type="radio" name="5" value="2" ></td>
+		<td><input type="radio" name="5" value="1" ></td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>I was stisfied with the course coverage</td>
+		<td><input type="radio" name="6" value="5" ></td>
+		<td><input type="radio" name="6" value="4" ></td>
+		<td><input type="radio" name="6" value="3" ></td>
+		<td><input type="radio" name="6" value="2" ></td>
+		<td><input type="radio" name="6" value="1" ></td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td>The evaluation was fair and transparent</td>
+		<td><input type="radio" name="7" value="5" ></td>
+		<td><input type="radio" name="7" value="4" ></td>
+		<td><input type="radio" name="7" value="3" ></td>
+		<td><input type="radio" name="7" value="2" ></td>
+		<td><input type="radio" name="7" value="1" ></td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td>The course helped me to acquire knowledge and skills</td>
+		<td><input type="radio" name="8" value="5" ></td>
+		<td><input type="radio" name="8" value="4" ></td>
+		<td><input type="radio" name="8" value="3" ></td>
+		<td><input type="radio" name="8" value="2" ></td>
+		<td><input type="radio" name="8" value="1" ></td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td>This course motivated me to learn more</td>
+		<td><input type="radio" name="9" value="5" ></td>
+		<td><input type="radio" name="9" value="4" ></td>
+		<td><input type="radio" name="9" value="3" ></td>
+		<td><input type="radio" name="9" value="2" ></td>
+		<td><input type="radio" name="9" value="1" ></td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>Overall, the course was stisfactory</td>
+		<td><input type="radio" name="10" value="5" ></td>
+		<td><input type="radio" name="10" value="4" ></td>
+		<td><input type="radio" name="10" value="3" ></td>
+		<td><input type="radio" name="10" value="2" ></td>
+		<td><input type="radio" name="10" value="1" ></td>
+	</tr>
+	<th style="text-align: left;" colspan="7"><b>INSTRUCTOR</b></th>
+	<tr>
+		<td>1</td>
+		<td>The instructor was generally well prepared for the classes</td>
+		<td><input type="radio" name="11" value="5" ></td>
+		<td><input type="radio" name="11" value="4" ></td>
+		<td><input type="radio" name="11" value="3" ></td>
+		<td><input type="radio" name="11" value="2" ></td>
+		<td><input type="radio" name="11" value="1" ></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>The instructor presented the contents effectively</td>
+		<td><input type="radio" name="12" value="5" ></td>
+		<td><input type="radio" name="12" value="4" ></td>
+		<td><input type="radio" name="12" value="3" ></td>
+		<td><input type="radio" name="12" value="2" ></td>
+		<td><input type="radio" name="12" value="1" ></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>The instructor generated interest in the subject</td>
+		<td><input type="radio" name="13" value="5" ></td>
+		<td><input type="radio" name="13" value="4" ></td>
+		<td><input type="radio" name="13" value="3" ></td>
+		<td><input type="radio" name="13" value="2" ></td>
+		<td><input type="radio" name="13" value="1" ></td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>The instructor delivered the lecturers  at an appropriate pace</td>
+		<td><input type="radio" name="14" value="5" ></td>
+		<td><input type="radio" name="14" value="4" ></td>
+		<td><input type="radio" name="14" value="3" ></td>
+		<td><input type="radio" name="14" value="2" ></td>
+		<td><input type="radio" name="14" value="1" ></td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>The instructor made use of appropriate teaching aids and methods</td>
+		<td><input type="radio" name="15" value="5" ></td>
+		<td><input type="radio" name="15" value="4" ></td>
+		<td><input type="radio" name="15" value="3" ></td>
+		<td><input type="radio" name="15" value="2" ></td>
+		<td><input type="radio" name="15" value="1" ></td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>The instructor encouraged students participation and interaction in the class</td>
+		<td><input type="radio" name="16" value="5" ></td>
+		<td><input type="radio" name="16" value="4" ></td>
+		<td><input type="radio" name="16" value="3" ></td>
+		<td><input type="radio" name="16" value="2" ></td>
+		<td><input type="radio" name="16" value="1" ></td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td>The instructor provided timely and effective feedback regarding the assignment/test/exams</td>
+		<td><input type="radio" name="17" value="5" ></td>
+		<td><input type="radio" name="17" value="4" ></td>
+		<td><input type="radio" name="17" value="3" ></td>
+		<td><input type="radio" name="17" value="2" ></td>
+		<td><input type="radio" name="17" value="1" ></td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td>The instructor was available outside class hour for consultation</td>
+		<td><input type="radio" name="18" value="5" ></td>
+		<td><input type="radio" name="18" value="4" ></td>
+		<td><input type="radio" name="18" value="3" ></td>
+		<td><input type="radio" name="18" value="2" ></td>
+		<td><input type="radio" name="18" value="1" ></td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td>The instructor was regulas to the class</td>
+		<td><input type="radio" name="19" value="5" ></td>
+		<td><input type="radio" name="19" value="4" ></td>
+		<td><input type="radio" name="19" value="3" ></td>
+		<td><input type="radio" name="19" value="2" ></td>
+		<td><input type="radio" name="19" value="1" ></td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>Overall, the instructor was effective in his/her roll as a teacher</td>
+		<td><input type="radio" name="20" value="5" ></td>
+		<td><input type="radio" name="20" value="4" ></td>
+		<td><input type="radio" name="20" value="3" ></td>
+		<td><input type="radio" name="20" value="2" ></td>
+		<td><input type="radio" name="20" value="1" ></td>
+	</tr>
+	<tr></tr>
+	<tr><td></td><td style="text-align: center;"><b><button onclick="myfunction()">submit</button></b></td></tr>
+</table>
+</div>
+</body>
+</form>
+</html>
